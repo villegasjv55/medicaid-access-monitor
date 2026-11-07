@@ -1,3 +1,65 @@
+# Learning Log: Medicaid Access Monitor
+
+Written in my own words, at the end of each work session. "Why" matters more than "what."
+
+---
+
+## Day 1 – Setup, data and scope (date: November 7, 2026)
+
+**What I did today**
+- Created the project folder, the Python virtual environment and the GitHub repo (villegasjv55/medicaid-access-monitor).
+- Downloaded two real CMS files into data/raw/: the CAA Reporting Metrics (call centers during unwinding, Mar 2023 – Jul 2024) and the Performance Indicator dataset (enrollment and applications).
+- Wrote the project charter, the data sources log and the data dictionary.
+
+**Decisions I made and why**
+- Used the CAA file as the main source because it is CMS's official record of the unwinding period.
+- Wrote the data dictionary before any code, so every raw CMS column is mapped to a short standard name and I know exactly where each number comes from.
+
+**Problems I hit and how I solved them**
+- Getting files onto my Mac and pushing to GitHub took a few tries. I learned to check with `ls` and `git status` before assuming something worked.
+- One dataset link was dead (404). I found the official CMS download link instead.
+
+**Questions I must be able to answer**
+1. What is unwinding, in my own words?
+2. What are the three call-center metrics, and why is abandonment rate important?
+3. Why should I never edit files in data/raw?
+
+**My answers**
+1. During COVID, states were not allowed to remove people from Medicaid. When that rule ended in 2023, every state had to re-check everyone's eligibility, which is called "unwinding." Millions of people had to renew, and many called their state's Medicaid call center for help.
+2. Call volume (how many people called), average wait ticd ~/Desktop/medicaid-access-monitor
+cat > learning-log/LEARNING_LOG.md <<'VILLEGAS_EOF'
+# Learning Log: Medicaid Access Monitor
+
+Written in my own words, at the end of each work session. "Why" matters more than "what."
+
+---
+
+## Day 1 – Setup, data and scope (date: November 7, 2026)
+
+**What I did today**
+- Created the project folder, the Python virtual environment and the GitHub repo (villegasjv55/medicaid-access-monitor).
+- Downloaded two real CMS files into data/raw/: the CAA Reporting Metrics (call centers during unwinding, Mar 2023 – Jul 2024) and the Performance Indicator dataset (enrollment and applications).
+- Wrote the project charter, the data sources log and the data dictionary.
+
+**Decisions I made and why**
+- Used the CAA file as the main source because it is CMS's official record of the unwinding period.
+- Wrote the data dictionary before any code, so every raw CMS column is mapped to a short standard name and I know exactly where each number comes from.
+
+**Problems I hit and how I solved them**
+- Getting files onto my Mac and pushing to GitHub took a few tries. I learned to check with `ls` and `git status` before assuming something worked.
+- One dataset link was dead (404). I found the official CMS download link instead.
+
+**Questions I must be able to answer**
+1. What is unwinding, in my own words?
+2. What are the three call-center metrics, and why is abandonment rate important?
+3. Why should I never edit files in data/raw?
+
+**My answers**
+1. During COVID, states were not allowed to remove people from Medicaid. When that rule ended in 2023, every state had to re-check everyone's eligibility, which is called "unwinding." Millions of people had to renew, and many called their state's Medicaid call center for help.
+2. Call volume (how many people called), average wait time (how long they sat on hold before reaching a person), and abandonment rate (the share of callers who hung up before anyone answered). Abandonment matters because every abandoned call is a person who needed help and didn't get it. During unwinding, that could mean missing a renewal and losing coverage for paperwork reasons.
+3. The raw files are my proof of what CMS actually published. If I edit them, I can't show where my numbers came from or redo the cleaning from scratch. All changes happen in the cleaning script, and every change is logged.
+
+---
 
 ## Day 2 – Cleaning and data quality (date: November 7, 2026)
 
