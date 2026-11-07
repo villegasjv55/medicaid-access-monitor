@@ -1,0 +1,418 @@
+exception_id,state_code,report_month,check_name,field,original_value,action_taken
+1,NV,2023-11-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+2,NV,2023-11-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+3,SD,2023-03-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+4,SD,2023-03-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+5,SD,2023-03-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+6,SD,2023-04-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+7,SD,2023-04-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+8,SD,2023-04-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+9,SD,2023-05-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+10,SD,2023-05-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+11,SD,2023-05-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+12,SD,2023-06-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+13,SD,2023-06-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+14,SD,2023-06-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+15,SD,2023-07-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+16,SD,2023-07-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+17,SD,2023-07-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+18,SD,2023-08-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+19,SD,2023-08-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+20,SD,2023-08-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+21,SD,2023-09-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+22,SD,2023-09-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+23,SD,2023-09-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+24,SD,2023-10-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+25,SD,2023-10-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+26,SD,2023-10-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+27,SD,2023-11-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+28,SD,2023-11-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+29,SD,2023-11-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+30,SD,2023-12-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+31,SD,2023-12-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+32,SD,2023-12-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+33,SD,2024-01-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+34,SD,2024-01-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+35,SD,2024-01-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+36,SD,2024-02-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+37,SD,2024-02-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+38,SD,2024-02-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+39,SD,2024-03-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+40,SD,2024-03-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+41,SD,2024-03-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+42,SD,2024-04-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+43,SD,2024-04-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+44,SD,2024-04-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+45,SD,2024-05-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+46,SD,2024-05-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+47,SD,2024-05-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+48,SD,2024-06-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+49,SD,2024-06-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+50,SD,2024-06-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+51,SD,2024-07-01,missing_value,call_volume,,kept as blank; is_reported = False; excluded from KPIs for this metric
+52,SD,2024-07-01,missing_value,avg_wait_min,,kept as blank; is_reported = False; excluded from KPIs for this metric
+53,SD,2024-07-01,missing_value,abandon_rate,,kept as blank; is_reported = False; excluded from KPIs for this metric
+54,AL,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+55,DC,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+56,DC,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+57,DC,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+58,IA,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+59,IA,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+60,IA,2023-12-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+61,IA,2024-01-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+62,IA,2024-02-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+63,IA,2024-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+64,IA,2024-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+65,IA,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+66,IA,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+67,KS,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+68,KS,2024-02-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+69,KS,2024-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+70,KS,2024-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+71,KS,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+72,KS,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+73,KS,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+74,KY,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+75,KY,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+76,KY,2024-01-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+77,KY,2024-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+78,KY,2024-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+79,KY,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+80,KY,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+81,LA,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+82,MI,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+83,MI,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+84,MI,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+85,MS,2023-08-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+86,MS,2023-09-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+87,MS,2023-10-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+88,MS,2023-11-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+89,MS,2023-12-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+90,MS,2024-01-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+91,MS,2024-02-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+92,MS,2024-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+93,MS,2024-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+94,MS,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+95,MS,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+96,MS,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+97,NC,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+98,NC,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+99,NC,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+100,NC,2023-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+101,NC,2023-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+102,NC,2023-08-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+103,NC,2023-09-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+104,NC,2023-10-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+105,NC,2023-12-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+106,NC,2024-02-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+107,NC,2024-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+108,NC,2024-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+109,NC,2024-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+110,NC,2024-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+111,NC,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+112,NY,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+113,NY,2023-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+114,NY,2023-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+115,NY,2023-08-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+116,OK,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+117,OK,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+118,OK,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+119,OK,2023-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+120,OK,2023-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+121,TN,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+122,TN,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+123,TN,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+124,TN,2023-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+125,TN,2024-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+126,VA,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+127,WA,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+128,WA,2023-07-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+129,WY,2023-03-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+130,WY,2023-04-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+131,WY,2023-05-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+132,WY,2023-06-01,zero_wait,avg_wait_min,0,"kept: 0 means under about 30 seconds (whole-minute rounding), not 'no wait'"
+133,AZ,2023-09-01,big_jump,call_volume,"1,159,356 -> 365,189 (-69%)",flagged for review: check CMS notes for a reporting change; value not changed
+134,AZ,2023-10-01,big_jump,call_volume,"365,189 -> 120,709 (-67%)",flagged for review: check CMS notes for a reporting change; value not changed
+135,HI,2023-08-01,big_jump,call_volume,"11,695 -> 41,395 (+254%)",flagged for review: check CMS notes for a reporting change; value not changed
+136,HI,2023-11-01,big_jump,call_volume,"20,665 -> 3,760 (-82%)",flagged for review: check CMS notes for a reporting change; value not changed
+137,HI,2023-12-01,big_jump,call_volume,"3,760 -> 18,437 (+390%)",flagged for review: check CMS notes for a reporting change; value not changed
+138,RI,2023-05-01,big_jump,call_volume,"61,842 -> 8,530 (-86%)",flagged for review: check CMS notes for a reporting change; value not changed
+139,AK,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+140,AK,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+141,AL,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+142,AL,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+143,AL,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+144,AR,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+145,AZ,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+146,CA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+147,CA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+148,CA,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+149,CO,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+150,CO,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+151,CT,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+152,DC,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+153,DC,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+154,DE,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+155,DE,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+156,FL,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+157,GA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+158,GA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+159,HI,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+160,HI,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+161,IA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+162,IL,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+163,IL,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+164,IL,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+165,IN,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+166,KS,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+167,KY,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+168,KY,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+169,LA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+170,LA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+171,LA,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+172,MA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+173,MA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+174,MD,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+175,MD,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+176,ME,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+177,ME,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+178,MI,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+179,MI,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+180,MI,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+181,MN,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+182,MN,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+183,MN,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+184,MO,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+185,MO,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+186,MO,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+187,MS,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+188,MS,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+189,MS,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+190,MT,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+191,MT,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+192,NC,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+193,NC,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+194,NC,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+195,ND,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+196,ND,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+197,NE,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+198,NJ,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+199,NJ,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+200,NJ,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+201,NM,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+202,NV,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+203,NV,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+204,NY,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+205,NY,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+206,NY,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+207,OH,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+208,OR,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+209,OR,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+210,OR,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+211,OR,2023-06-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+212,PA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+213,RI,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+214,RI,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+215,SC,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+216,SC,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+217,TN,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+218,TN,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+219,TN,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+220,TX,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+221,TX,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+222,UT,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+223,VA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+224,VA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+225,VT,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+226,VT,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+227,WA,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+228,WA,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+229,WI,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+230,WI,2023-04-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+231,WI,2023-05-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+232,WV,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+233,WY,2023-03-01,missing_value,renewals_due,,kept as blank; excluded from KPIs that need it
+234,AK,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+235,AK,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+236,AL,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+237,AL,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+238,AL,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+239,AR,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+240,AZ,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+241,CA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+242,CA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+243,CA,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+244,CO,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+245,CO,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+246,CT,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+247,DC,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+248,DC,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+249,DE,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+250,DE,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+251,FL,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+252,GA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+253,GA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+254,HI,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+255,HI,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+256,IA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+257,IL,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+258,IL,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+259,IL,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+260,IN,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+261,KS,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+262,KY,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+263,KY,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+264,LA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+265,LA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+266,LA,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+267,MA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+268,MA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+269,MD,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+270,MD,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+271,ME,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+272,ME,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+273,MI,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+274,MI,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+275,MI,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+276,MN,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+277,MN,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+278,MN,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+279,MO,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+280,MO,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+281,MO,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+282,MS,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+283,MS,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+284,MS,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+285,MT,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+286,MT,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+287,NC,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+288,NC,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+289,NC,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+290,ND,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+291,ND,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+292,NE,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+293,NJ,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+294,NJ,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+295,NJ,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+296,NM,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+297,NV,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+298,NV,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+299,NY,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+300,NY,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+301,NY,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+302,OH,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+303,OR,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+304,OR,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+305,OR,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+306,OR,2023-06-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+307,PA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+308,RI,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+309,RI,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+310,SC,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+311,SC,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+312,TN,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+313,TN,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+314,TN,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+315,TX,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+316,TX,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+317,UT,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+318,VA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+319,VA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+320,VT,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+321,VT,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+322,WA,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+323,WA,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+324,WI,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+325,WI,2023-04-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+326,WI,2023-05-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+327,WV,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+328,WY,2023-03-01,missing_value,terminated_procedural,,kept as blank; excluded from KPIs that need it
+329,AZ,2023-10-01,reconciliation_caa_vs_pi,call_volume,CAA=120709.0 PI=nan,kept CAA value (official unwinding record); PI was revised later
+330,HI,2023-11-01,reconciliation_caa_vs_pi,call_volume,CAA=3760.0 PI=17778.0,kept CAA value (official unwinding record); PI was revised later
+331,KY,2023-07-01,reconciliation_caa_vs_pi,call_volume,CAA=115480.0 PI=115481.0,kept CAA value (official unwinding record); PI was revised later
+332,NE,2023-03-01,reconciliation_caa_vs_pi,call_volume,CAA=44710.0 PI=31697.0,kept CAA value (official unwinding record); PI was revised later
+333,NE,2023-04-01,reconciliation_caa_vs_pi,call_volume,CAA=36525.0 PI=24411.0,kept CAA value (official unwinding record); PI was revised later
+334,NE,2023-05-01,reconciliation_caa_vs_pi,call_volume,CAA=41924.0 PI=27525.0,kept CAA value (official unwinding record); PI was revised later
+335,NE,2023-06-01,reconciliation_caa_vs_pi,call_volume,CAA=43114.0 PI=28960.0,kept CAA value (official unwinding record); PI was revised later
+336,NE,2023-07-01,reconciliation_caa_vs_pi,call_volume,CAA=44435.0 PI=30219.0,kept CAA value (official unwinding record); PI was revised later
+337,NE,2023-08-01,reconciliation_caa_vs_pi,call_volume,CAA=52404.0 PI=35770.0,kept CAA value (official unwinding record); PI was revised later
+338,NE,2023-09-01,reconciliation_caa_vs_pi,call_volume,CAA=49514.0 PI=33004.0,kept CAA value (official unwinding record); PI was revised later
+339,NE,2023-10-01,reconciliation_caa_vs_pi,call_volume,CAA=54641.0 PI=37644.0,kept CAA value (official unwinding record); PI was revised later
+340,NE,2023-11-01,reconciliation_caa_vs_pi,call_volume,CAA=57042.0 PI=38885.0,kept CAA value (official unwinding record); PI was revised later
+341,NE,2023-12-01,reconciliation_caa_vs_pi,call_volume,CAA=56502.0 PI=38007.0,kept CAA value (official unwinding record); PI was revised later
+342,NE,2024-01-01,reconciliation_caa_vs_pi,call_volume,CAA=67730.0 PI=45103.0,kept CAA value (official unwinding record); PI was revised later
+343,NE,2024-02-01,reconciliation_caa_vs_pi,call_volume,CAA=56484.0 PI=38136.0,kept CAA value (official unwinding record); PI was revised later
+344,NE,2024-03-01,reconciliation_caa_vs_pi,call_volume,CAA=50373.0 PI=35970.0,kept CAA value (official unwinding record); PI was revised later
+345,NE,2024-04-01,reconciliation_caa_vs_pi,call_volume,CAA=49788.0 PI=35808.0,kept CAA value (official unwinding record); PI was revised later
+346,NE,2024-05-01,reconciliation_caa_vs_pi,call_volume,CAA=48656.0 PI=35207.0,kept CAA value (official unwinding record); PI was revised later
+347,NE,2024-06-01,reconciliation_caa_vs_pi,call_volume,CAA=45908.0 PI=31254.0,kept CAA value (official unwinding record); PI was revised later
+348,NE,2024-07-01,reconciliation_caa_vs_pi,call_volume,CAA=51636.0 PI=36426.0,kept CAA value (official unwinding record); PI was revised later
+349,NH,2023-07-01,reconciliation_caa_vs_pi,call_volume,CAA=16149.0 PI=35515.0,kept CAA value (official unwinding record); PI was revised later
+350,NH,2023-08-01,reconciliation_caa_vs_pi,call_volume,CAA=19137.0 PI=41862.0,kept CAA value (official unwinding record); PI was revised later
+351,AZ,2023-10-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=6.0 PI=nan,kept CAA value (official unwinding record); PI was revised later
+352,DC,2024-07-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=0.0 PI=1.0,kept CAA value (official unwinding record); PI was revised later
+353,HI,2023-09-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=20.0 PI=15.0,kept CAA value (official unwinding record); PI was revised later
+354,HI,2023-11-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=22.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+355,HI,2023-12-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=16.0 PI=11.0,kept CAA value (official unwinding record); PI was revised later
+356,HI,2024-01-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=31.0 PI=7.0,kept CAA value (official unwinding record); PI was revised later
+357,HI,2024-02-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=23.0 PI=4.0,kept CAA value (official unwinding record); PI was revised later
+358,HI,2024-04-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=39.0 PI=15.0,kept CAA value (official unwinding record); PI was revised later
+359,HI,2024-05-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=34.0 PI=9.0,kept CAA value (official unwinding record); PI was revised later
+360,HI,2024-06-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=34.0 PI=8.0,kept CAA value (official unwinding record); PI was revised later
+361,HI,2024-07-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=37.0 PI=11.0,kept CAA value (official unwinding record); PI was revised later
+362,KS,2023-11-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=6.0 PI=5.0,kept CAA value (official unwinding record); PI was revised later
+363,KS,2023-12-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=2.0 PI=1.0,kept CAA value (official unwinding record); PI was revised later
+364,NE,2023-03-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+365,NE,2023-04-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+366,NE,2023-05-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=5.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+367,NE,2023-06-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+368,NE,2023-07-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=5.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+369,NE,2023-10-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+370,NE,2023-11-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+371,NE,2023-12-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+372,NE,2024-01-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=5.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+373,NE,2024-02-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=5.0 PI=4.0,kept CAA value (official unwinding record); PI was revised later
+374,NE,2024-06-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=4.0 PI=3.0,kept CAA value (official unwinding record); PI was revised later
+375,NH,2023-07-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=15.0 PI=6.0,kept CAA value (official unwinding record); PI was revised later
+376,NH,2023-08-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=15.0 PI=6.0,kept CAA value (official unwinding record); PI was revised later
+377,TX,2023-03-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=2.0 PI=10.0,kept CAA value (official unwinding record); PI was revised later
+378,TX,2023-04-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=8.0 PI=11.0,kept CAA value (official unwinding record); PI was revised later
+379,WA,2023-03-01,reconciliation_caa_vs_pi,avg_wait_min,CAA=7.0 PI=2.0,kept CAA value (official unwinding record); PI was revised later
+380,AZ,2023-10-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.093 PI=nan,kept CAA value (official unwinding record); PI was revised later
+381,HI,2023-09-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.35 PI=0.32,kept CAA value (official unwinding record); PI was revised later
+382,HI,2023-10-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.25 PI=0.17,kept CAA value (official unwinding record); PI was revised later
+383,HI,2023-11-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.23 PI=0.15,kept CAA value (official unwinding record); PI was revised later
+384,HI,2023-12-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.34 PI=0.23,kept CAA value (official unwinding record); PI was revised later
+385,HI,2024-01-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.31 PI=0.15,kept CAA value (official unwinding record); PI was revised later
+386,HI,2024-02-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.27 PI=0.24,kept CAA value (official unwinding record); PI was revised later
+387,HI,2024-03-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.24 PI=0.19,kept CAA value (official unwinding record); PI was revised later
+388,HI,2024-04-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.32 PI=0.24,kept CAA value (official unwinding record); PI was revised later
+389,HI,2024-05-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.31 PI=0.38,kept CAA value (official unwinding record); PI was revised later
+390,HI,2024-06-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.3 PI=0.24,kept CAA value (official unwinding record); PI was revised later
+391,HI,2024-07-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.29 PI=0.25,kept CAA value (official unwinding record); PI was revised later
+392,ID,2023-05-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.069 PI=0.068,kept CAA value (official unwinding record); PI was revised later
+393,KS,2024-06-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.005 PI=0.003,kept CAA value (official unwinding record); PI was revised later
+394,KY,2023-08-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.008 PI=0.072,kept CAA value (official unwinding record); PI was revised later
+395,ME,2023-03-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.3 PI=0.31,kept CAA value (official unwinding record); PI was revised later
+396,ME,2023-05-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.27 PI=0.3,kept CAA value (official unwinding record); PI was revised later
+397,NE,2023-03-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.108 PI=0.0809,kept CAA value (official unwinding record); PI was revised later
+398,NE,2023-04-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.123 PI=0.0792,kept CAA value (official unwinding record); PI was revised later
+399,NE,2023-05-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.124 PI=0.0962,kept CAA value (official unwinding record); PI was revised later
+400,NE,2023-06-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.121 PI=0.0986,kept CAA value (official unwinding record); PI was revised later
+401,NE,2023-07-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.126 PI=0.1145,kept CAA value (official unwinding record); PI was revised later
+402,NE,2023-08-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.111 PI=0.1707,kept CAA value (official unwinding record); PI was revised later
+403,NE,2023-09-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.106 PI=0.166,kept CAA value (official unwinding record); PI was revised later
+404,NE,2023-10-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.109 PI=0.0915,kept CAA value (official unwinding record); PI was revised later
+405,NE,2023-11-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.099 PI=0.0848,kept CAA value (official unwinding record); PI was revised later
+406,NE,2023-12-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.1 PI=0.0963,kept CAA value (official unwinding record); PI was revised later
+407,NE,2024-01-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.099 PI=0.0929,kept CAA value (official unwinding record); PI was revised later
+408,NE,2024-02-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.099 PI=0.0905,kept CAA value (official unwinding record); PI was revised later
+409,NE,2024-03-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.124 PI=0.0915,kept CAA value (official unwinding record); PI was revised later
+410,NE,2024-04-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.115 PI=0.1005,kept CAA value (official unwinding record); PI was revised later
+411,NE,2024-05-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.107 PI=0.106,kept CAA value (official unwinding record); PI was revised later
+412,NE,2024-06-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.103 PI=0.0923,kept CAA value (official unwinding record); PI was revised later
+413,NE,2024-07-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.101 PI=0.1356,kept CAA value (official unwinding record); PI was revised later
+414,NH,2023-07-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.13 PI=0.08,kept CAA value (official unwinding record); PI was revised later
+415,NH,2023-08-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.14 PI=0.06,kept CAA value (official unwinding record); PI was revised later
+416,NV,2024-07-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.225 PI=0.243,kept CAA value (official unwinding record); PI was revised later
+417,TX,2023-03-01,reconciliation_caa_vs_pi,abandon_rate,CAA=0.069 PI=0.057,kept CAA value (official unwinding record); PI was revised later
