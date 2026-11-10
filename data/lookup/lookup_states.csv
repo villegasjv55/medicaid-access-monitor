@@ -1,0 +1,52 @@
+state_code,state_name,region,peer_group
+AK,Alaska,West,Other
+AL,Alabama,South,Other
+AR,Arkansas,South,Other
+AZ,Arizona,West,Other
+CA,California,West,Large
+CO,Colorado,West,Other
+CT,Connecticut,Northeast,Other
+DC,District of Columbia,South,Other
+DE,Delaware,South,Other
+FL,Florida,South,Large
+GA,Georgia,South,Large
+HI,Hawaii,West,Other
+IA,Iowa,Midwest,Other
+ID,Idaho,West,Other
+IL,Illinois,Midwest,Other
+IN,Indiana,Midwest,Other
+KS,Kansas,Midwest,Other
+KY,Kentucky,South,Other
+LA,Louisiana,South,Other
+MA,Massachusetts,Northeast,Other
+MD,Maryland,South,Other
+ME,Maine,Northeast,Other
+MI,Michigan,Midwest,Other
+MN,Minnesota,Midwest,Other
+MO,Missouri,Midwest,Other
+MS,Mississippi,South,Other
+MT,Montana,West,Other
+NC,North Carolina,South,Other
+ND,North Dakota,Midwest,Other
+NE,Nebraska,Midwest,Other
+NH,New Hampshire,Northeast,Other
+NJ,New Jersey,Northeast,Other
+NM,New Mexico,West,Other
+NV,Nevada,West,Other
+NY,New York,Northeast,Large
+OH,Ohio,Midwest,Other
+OK,Oklahoma,South,Other
+OR,Oregon,West,Other
+PA,Pennsylvania,Northeast,Large
+RI,Rhode Island,Northeast,Other
+SC,South Carolina,South,Other
+SD,South Dakota,Midwest,Other
+TN,Tennessee,South,Other
+TX,Texas,South,Large
+UT,Utah,West,Other
+VA,Virginia,South,Other
+VT,Vermont,Northeast,Other
+WA,Washington,West,Other
+WI,Wisconsin,Midwest,Other
+WV,West Virginia,South,Other
+WY,Wyoming,West,Other
