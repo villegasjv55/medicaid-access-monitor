@@ -1,0 +1,11 @@
+state_code,state_name,total_calls,weighted_wait_min
+MO,Missouri,1740173,39.3
+NM,New Mexico,3756011,35.0
+ID,Idaho,795568,34.7
+MT,Montana,475328,31.8
+RI,Rhode Island,374128,30.8
+FL,Florida,35827621,30.8
+NV,Nevada,1682330,25.0
+UT,Utah,2109601,23.5
+IL,Illinois,4277012,21.8
+HI,Hawaii,397750,20.8

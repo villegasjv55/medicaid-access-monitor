@@ -1,0 +1,11 @@
+state_code,state_name,total_calls,weighted_abandon_pct
+MO,Missouri,1740173,51.7
+MT,Montana,475328,41.0
+FL,Florida,35827621,37.4
+IL,Illinois,4277012,34.1
+HI,Hawaii,397750,29.2
+RI,Rhode Island,374128,27.4
+OR,Oregon,1803502,27.1
+NV,Nevada,1682330,25.8
+UT,Utah,2109601,22.5
+AK,Alaska,504102,22.3

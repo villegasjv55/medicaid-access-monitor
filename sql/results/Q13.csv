@@ -1,0 +1,5 @@
+region,states,total_calls,weighted_wait_min,weighted_abandon_pct
+West,13,23598141,19.1,16.9
+South,17,78626624,17.5,22.7
+Midwest,11,23787144,10.9,16.4
+Northeast,9,28669421,5.2,9.4
