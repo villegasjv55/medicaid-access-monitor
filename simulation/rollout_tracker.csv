@@ -1,0 +1,15 @@
+task_id,workstream,task,owner_role,start_week,end_week,status_week12,depends_on,notes
+T01,Governance,Kickoff and sign off pilot charter and targets,Program Manager,1,1,Complete,,SIMULATED
+T02,Governance,Weekly KPI review meeting set up (wait / abandonment / calls per 1k),Reporting Analyst,1,2,Complete,T01,SIMULATED
+T03,Forecasting,Build call forecast from renewals-due calendar,Reporting Analyst,1,3,Complete,T01,SIMULATED
+T04,Forecasting,Validate forecast against last 3 months of actuals,Reporting Analyst,3,4,Complete,T03,SIMULATED
+T05,Staffing,Schedule agents 4-6 weeks ahead of renewal waves,Workforce Manager,4,12,In progress,T04,SIMULATED
+T06,Staffing,Onboard temporary / vendor overflow agents,Vendor Manager,4,7,Complete,T05,SIMULATED
+T07,Queue,Configure virtual callback when wait passes 10 minutes,Telephony Lead,3,6,Complete,T01,SIMULATED
+T08,Queue,Add expected-wait message at start of call,Telephony Lead,3,4,Complete,T01,SIMULATED
+T09,Deflection,Self-service renewal status check (web + text + IVR),IT Implementation Analyst,4,10,Complete,T01,SIMULATED
+T10,Deflection,Plain-language renewal notices with clear deadlines,Communications Lead,2,6,Complete,T01,SIMULATED
+T11,Deflection,Expand automatic (ex parte) renewals,Eligibility Policy Lead,5,12,In progress,T01,SIMULATED
+T12,Training,Agent refresher on top 10 call reasons,Training Lead,2,4,Complete,T01,SIMULATED
+T13,Reporting,Weekly dashboard published to leadership,Reporting Analyst,2,12,Complete,T02,SIMULATED
+T14,Close-out,Lessons learned and scale-up recommendation,Program Manager,11,12,In progress,T13,SIMULATED

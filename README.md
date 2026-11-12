@@ -20,6 +20,14 @@
 - Nationally, the **worst month was July 2023** (20.2-minute weighted wait, 22.6% hung up). Call volume rose and fell with renewals (correlation 0.94).
 - **Recovery is possible:** several states cut waits by 30+ minutes from their peak (Maine 44 → 5.7, Idaho 56 → 18.7, Oklahoma 46 → 9.7).
 
+## Recommendations (from the [findings memo](docs/findings_memo.md))
+
+1. **Staff to the renewal calendar:** calls track renewals almost one-to-one, so peaks are predictable.
+2. **Cut avoidable calls:** automatic renewals, clearer notices, self-service status checks.
+3. **Stop losing callers in the queue:** virtual callback after 10 minutes.
+4. **Manage to weekly targets:** wait under 15 minutes, abandonment under 15%.
+5. **Learn from recovered states:** Maine, Oklahoma and Idaho cut waits by 30+ minutes.
+
 ## The story in brief
 
 From 2023 to 2024, when the COVID-era continuous-enrollment rule ended, every state had to re-check the Medicaid eligibility of everyone enrolled. Millions of people called state call centers to renew their coverage. CMS published monthly call-center figures for every state. This project cleans those figures, proves the numbers are right, and turns them into reports, a dashboard and recommendations a Medicaid operations director could act on.
@@ -33,10 +41,10 @@ From 2023 to 2024, when the COVID-era continuous-enrollment rule ended, every st
 | 3 | **Excel reporting engine:** Power Query (documented steps), Calc table with XLOOKUP, PivotTable with weighted calculated fields, PivotChart, region slicer, state scorecard with risk score, Florida spotlight, reconciliation tab | [`excel/Medicaid_Access_Reporting.xlsx`](excel/) | ✅ |
 | 4 | **SQL query pack:** 15 DuckDB queries (GROUP BY, JOINs, CTEs, window functions RANK / LAG / ROW_NUMBER, CORR) | [`sql/`](sql/) | ✅ |
 | 5 | **Interactive dashboard:** U.S. map, state ranking, Florida spotlight, state comparison, filters | [`dashboard/app.py`](dashboard/app.py) · [live](https://medicaid-access-monitor.streamlit.app/) | ✅ |
-| 6 | Findings memo (2 pages) | `docs/` | Next |
-| 7 | Rollout simulation (**clearly labeled simulation**) | `simulation/` | Planned |
-| 8 | Executive briefing (7 slides) + demo video | `presentation/` | Planned |
-| 9 | Learning log | [`learning-log/`](learning-log/) | Ongoing |
+| 6 | **Findings memo** (2 pages, 5 recommendations) | [`docs/findings_memo.md`](docs/findings_memo.md) · [PDF](docs/findings_memo.pdf) | ✅ |
+| 7 | **Rollout simulation** (12-week pilot plan, task tracker, weekly KPIs; **clearly labeled simulation**) | [`simulation/`](simulation/rollout_plan.md) | ✅ |
+| 8 | **Executive briefing** (7 slides) | [`presentation/executive_briefing.pdf`](presentation/executive_briefing.pdf) | ✅ |
+| 9 | **Learning log** (4 days, decisions and lessons) | [`learning-log/`](learning-log/LEARNING_LOG.md) | ✅ |
 
 ## How I made sure the numbers are right
 
@@ -80,12 +88,14 @@ excel/             Excel reporting workbook
 sql/               DuckDB query pack + results
 python/            cleaning pipeline and SQL runner
 dashboard/         Streamlit app
+simulation/        clearly labeled rollout simulation (plan, tracker, weekly KPIs)
+presentation/      7-slide executive briefing (PDF)
 learning-log/      what I learned and why I made each decision
 ~~~
 
 ## Honesty notes
 
-- All results come from real public CMS data. Any rollout figures will be a **clearly labeled simulation**.
+- All results come from real public CMS data. The rollout figures in `simulation/` are a **clearly labeled simulation**.
 - States define "call center" differently, so comparisons show broad patterns, not exact rankings.
 - Findings show patterns, not causes.
 - Built with AI assistance for code and drafting; every data check, reconciliation and finding was verified by me.

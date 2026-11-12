@@ -1,0 +1,14 @@
+week,label,avg_wait_min,abandon_pct,calls_per_1000_enrollees_week,wait_target_met,abandon_target_met,data_type
+0,Baseline,26.7,35.1,112.0,No,No,SIMULATED
+1,Week 1,23.8,30.9,108.0,No,No,SIMULATED
+2,Week 2,21.4,27.5,104.8,No,No,SIMULATED
+3,Week 3,19.5,24.8,102.3,No,No,SIMULATED
+4,Week 4,18.0,22.7,100.2,No,No,SIMULATED
+5,Week 5,16.8,20.9,98.6,No,No,SIMULATED
+6,Week 6,15.9,19.6,97.3,No,No,SIMULATED
+7,Week 7,15.1,18.5,96.2,No,No,SIMULATED
+8,Week 8,14.5,17.6,95.4,Yes,No,SIMULATED
+9,Week 9,14.0,16.9,94.7,Yes,No,SIMULATED
+10,Week 10,13.6,16.3,94.2,Yes,No,SIMULATED
+11,Week 11,13.3,15.8,93.7,Yes,No,SIMULATED
+12,Week 12,13.0,15.5,93.4,Yes,No,SIMULATED
