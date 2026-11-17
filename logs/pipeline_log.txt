@@ -1,0 +1,99 @@
+
+===== Pipeline run 2026-11-17 01:13:00 =====
+--- output of clean_data.py (last lines) ---
+missing_value               243
+reconciliation_caa_vs_pi     89
+zero_wait                    79
+big_jump                      6
+
+DONE: all checks passed.
+[1/5] Cleaning raw CMS files             867 state-months PASS
+--- output of run_sql.py (last lines) ---
+        CA           California                    1   2024-06-01 2024-06-01                    0          False
+        KY             Kentucky                    1   2023-09-01 2023-09-01                    0          False
+        MI             Michigan                    1   2023-11-01 2023-11-01                    0          False
+        NC       North Carolina                    1   2024-01-01 2024-01-01                    0          False
+
+DONE: 19 queries ran. Results saved to sql/results/
+[2/5] Running SQL queries                19 results saved PASS
+[3/5] Applying SLA standards             wait<=10 min, abandon<=5%
+[4/5] Writing KPI report                 output/kpi_report_2026-11-17.csv
+  PASS  State-months: Python = SQL
+  PASS  Total calls: Python = SQL
+  PASS  Q16 has one row per state-month
+  PASS  Evaluated months: Python = SQL
+  PASS  SLA-met months: Python = SQL
+  PASS  By-state totals (Q17) = Q16
+  PASS  By-month totals (Q18) = Q16
+  PASS  Compliance % between 0 and 100
+  PASS  Streaks never longer than months
+  PASS  KPI report has one row per state
+[5/5] Reconciliation checks              10/10 PASS
+Headline: overall SLA compliance 33.6% | watch list 43 states | Florida met 0/17 months
+Done in 4.0s. Log: logs/pipeline_log.txt
+
+===== Pipeline run 2026-11-17 01:13:05 =====
+--- output of clean_data.py (last lines) ---
+missing_value               243
+reconciliation_caa_vs_pi     89
+zero_wait                    79
+big_jump                      6
+
+DONE: all checks passed.
+[1/5] Cleaning raw CMS files             867 state-months PASS
+--- output of run_sql.py (last lines) ---
+        CA           California                    1   2024-06-01 2024-06-01                    0          False
+        KY             Kentucky                    1   2023-09-01 2023-09-01                    0          False
+        MI             Michigan                    1   2023-11-01 2023-11-01                    0          False
+        NC       North Carolina                    1   2024-01-01 2024-01-01                    0          False
+
+DONE: 19 queries ran. Results saved to sql/results/
+[2/5] Running SQL queries                19 results saved PASS
+[3/5] Applying SLA standards             wait<=10 min, abandon<=5%
+[4/5] Writing KPI report                 output/kpi_report_2026-11-17.csv
+  PASS  State-months: Python = SQL
+  PASS  Total calls: Python = SQL
+  PASS  Q16 has one row per state-month
+  PASS  Evaluated months: Python = SQL
+  PASS  SLA-met months: Python = SQL
+  PASS  By-state totals (Q17) = Q16
+  PASS  By-month totals (Q18) = Q16
+  PASS  Compliance % between 0 and 100
+  PASS  Streaks never longer than months
+  PASS  KPI report has one row per state
+[5/5] Reconciliation checks              10/10 PASS
+Headline: overall SLA compliance 33.6% | watch list 43 states | Florida met 0/17 months
+Done in 3.1s. Log: logs/pipeline_log.txt
+
+===== Pipeline run 2026-11-17 02:03:51 =====
+--- output of clean_data.py (last lines) ---
+missing_value               243
+reconciliation_caa_vs_pi     89
+zero_wait                    79
+big_jump                      6
+
+DONE: all checks passed.
+[1/5] Cleaning raw CMS files             867 state-months PASS
+--- output of run_sql.py (last lines) ---
+        CA           California                    1   2024-06-01 2024-06-01                    0          False
+        KY             Kentucky                    1   2023-09-01 2023-09-01                    0          False
+        MI             Michigan                    1   2023-11-01 2023-11-01                    0          False
+        NC       North Carolina                    1   2024-01-01 2024-01-01                    0          False
+
+DONE: 19 queries ran. Results saved to sql/results/
+[2/5] Running SQL queries                19 results saved PASS
+[3/5] Applying SLA standards             wait<=10 min, abandon<=5%
+[4/5] Writing KPI report                 output/kpi_report_2026-11-17.csv
+  PASS  State-months: Python = SQL
+  PASS  Total calls: Python = SQL
+  PASS  Q16 has one row per state-month
+  PASS  Evaluated months: Python = SQL
+  PASS  SLA-met months: Python = SQL
+  PASS  By-state totals (Q17) = Q16
+  PASS  By-month totals (Q18) = Q16
+  PASS  Compliance % between 0 and 100
+  PASS  Streaks never longer than months
+  PASS  KPI report has one row per state
+[5/5] Reconciliation checks              10/10 PASS
+Headline: overall SLA compliance 33.6% | watch list 43 states | Florida met 0/17 months
+Done in 4.0s. Log: logs/pipeline_log.txt

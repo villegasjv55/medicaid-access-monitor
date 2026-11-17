@@ -1,0 +1,51 @@
+report_date,state_code,state_name,region,peer_group,months_evaluated,months_sla_met,wait_sla_pct,abandon_sla_pct,overall_sla_pct,latest_month_sla_met,longest_miss_streak,current_miss_streak,on_watch_list
+2026-11-17,AK,Alaska,West,Other,17,0,11.8,0.0,0.0,False,17,17,True
+2026-11-17,AZ,Arizona,West,Other,17,0,58.8,0.0,0.0,False,17,17,True
+2026-11-17,DE,Delaware,South,Other,17,0,100.0,0.0,0.0,False,17,17,True
+2026-11-17,FL,Florida,South,Large,17,0,0.0,0.0,0.0,False,17,17,True
+2026-11-17,HI,Hawaii,West,Other,17,0,23.5,0.0,0.0,False,17,17,True
+2026-11-17,ID,Idaho,West,Other,17,0,0.0,0.0,0.0,False,17,17,True
+2026-11-17,IL,Illinois,Midwest,Other,17,0,5.9,0.0,0.0,False,17,17,True
+2026-11-17,ME,Maine,Northeast,Other,17,0,35.3,0.0,0.0,False,17,17,True
+2026-11-17,MO,Missouri,Midwest,Other,17,0,0.0,0.0,0.0,False,17,17,True
+2026-11-17,MT,Montana,West,Other,17,0,0.0,0.0,0.0,False,17,17,True
+2026-11-17,NE,Nebraska,Midwest,Other,17,0,100.0,0.0,0.0,False,17,17,True
+2026-11-17,NV,Nevada,West,Other,16,0,0.0,0.0,0.0,False,8,8,True
+2026-11-17,OR,Oregon,West,Other,17,0,29.4,0.0,0.0,False,17,17,True
+2026-11-17,RI,Rhode Island,Northeast,Other,17,0,5.9,0.0,0.0,False,17,17,True
+2026-11-17,UT,Utah,West,Other,17,0,0.0,0.0,0.0,False,17,17,True
+2026-11-17,WI,Wisconsin,Midwest,Other,17,0,70.6,0.0,0.0,False,17,17,True
+2026-11-17,PA,Pennsylvania,Northeast,Large,17,1,47.1,5.9,5.9,False,16,16,True
+2026-11-17,WV,West Virginia,South,Other,17,1,41.2,5.9,5.9,False,14,2,True
+2026-11-17,CO,Colorado,West,Other,17,2,58.8,11.8,11.8,False,15,15,True
+2026-11-17,MN,Minnesota,Midwest,Other,17,2,52.9,11.8,11.8,False,15,15,True
+2026-11-17,NM,New Mexico,West,Other,17,2,11.8,11.8,11.8,True,15,0,True
+2026-11-17,MD,Maryland,South,Other,17,3,94.1,17.6,17.6,False,6,4,True
+2026-11-17,WA,Washington,West,Other,17,3,100.0,17.6,17.6,False,14,14,True
+2026-11-17,IN,Indiana,Midwest,Other,17,4,70.6,23.5,23.5,False,12,1,True
+2026-11-17,ND,North Dakota,Midwest,Other,17,4,94.1,23.5,23.5,True,10,0,True
+2026-11-17,SC,South Carolina,South,Other,17,4,94.1,23.5,23.5,False,5,4,True
+2026-11-17,AR,Arkansas,South,Other,17,5,94.1,29.4,29.4,True,11,0,True
+2026-11-17,NH,New Hampshire,Northeast,Other,17,5,70.6,29.4,29.4,False,11,1,True
+2026-11-17,OK,Oklahoma,South,Other,17,5,52.9,29.4,29.4,False,12,12,True
+2026-11-17,TX,Texas,South,Large,17,5,64.7,29.4,29.4,False,11,1,True
+2026-11-17,AL,Alabama,South,Other,17,6,100.0,35.3,35.3,False,9,1,True
+2026-11-17,NJ,New Jersey,Northeast,Other,17,7,100.0,41.2,41.2,True,10,0,True
+2026-11-17,GA,Georgia,South,Large,17,8,47.1,100.0,47.1,True,6,0,True
+2026-11-17,TN,Tennessee,South,Other,17,8,58.8,47.1,47.1,True,9,0,True
+2026-11-17,VT,Vermont,Northeast,Other,17,9,94.1,52.9,52.9,True,8,0,True
+2026-11-17,CT,Connecticut,Northeast,Other,17,10,94.1,58.8,58.8,False,5,1,True
+2026-11-17,LA,Louisiana,South,Other,17,10,100.0,58.8,58.8,False,7,7,True
+2026-11-17,MS,Mississippi,South,Other,17,10,100.0,58.8,58.8,True,3,0,True
+2026-11-17,IA,Iowa,Midwest,Other,17,11,88.2,64.7,64.7,False,5,1,True
+2026-11-17,DC,District of Columbia,South,Other,17,12,100.0,70.6,70.6,True,5,0,True
+2026-11-17,KS,Kansas,Midwest,Other,17,12,76.5,70.6,70.6,True,4,0,True
+2026-11-17,NY,New York,Northeast,Large,17,12,100.0,70.6,70.6,True,5,0,True
+2026-11-17,MA,Massachusetts,Northeast,Other,17,14,94.1,82.4,82.4,True,2,0,False
+2026-11-17,VA,Virginia,South,Other,17,14,100.0,82.4,82.4,True,3,0,True
+2026-11-17,CA,California,West,Large,17,15,100.0,88.2,88.2,True,1,0,False
+2026-11-17,KY,Kentucky,South,Other,17,15,88.2,94.1,88.2,True,1,0,False
+2026-11-17,MI,Michigan,Midwest,Other,17,16,100.0,94.1,94.1,True,1,0,False
+2026-11-17,NC,North Carolina,South,Other,17,16,100.0,94.1,94.1,True,1,0,False
+2026-11-17,OH,Ohio,Midwest,Other,17,17,100.0,100.0,100.0,True,0,0,False
+2026-11-17,WY,Wyoming,West,Other,17,17,100.0,100.0,100.0,True,0,0,False

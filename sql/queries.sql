@@ -39,7 +39,7 @@ SELECT
 FROM cc
 WHERE call_volume IS NOT NULL
 GROUP BY state_code, state_name
-ORDER BY weighted_wait_min DESC
+ORDER BY weighted_wait_min DESC, state_code
 LIMIT 10;
 
 -- Q04: Top 10 states by weighted abandonment rate (charter question 2)
@@ -51,7 +51,7 @@ SELECT
 FROM cc
 WHERE call_volume IS NOT NULL
 GROUP BY state_code, state_name
-ORDER BY weighted_abandon_pct DESC
+ORDER BY weighted_abandon_pct DESC, state_code
 LIMIT 10;
 
 -- Q05: Consistently bad or one bad month? Months with wait over 15 minutes (charter question 2)
@@ -63,7 +63,7 @@ SELECT
 FROM cc
 GROUP BY state_code
 HAVING COUNT(*) FILTER (WHERE avg_wait_min > 15) > 0
-ORDER BY months_over_15_min DESC, peak_wait_min DESC
+ORDER BY months_over_15_min DESC, peak_wait_min DESC, state_code
 LIMIT 15;
 
 -- Q06: Florida vs national vs large-state peers, month by month (charter question 3)
@@ -143,7 +143,7 @@ FROM cc c
 JOIN last3 l USING (state_code)
 WHERE c.avg_wait_min IS NOT NULL
 GROUP BY c.state_code, l.last3_avg_wait
-ORDER BY minutes_improved DESC
+ORDER BY minutes_improved DESC, state_code
 LIMIT 10;
 
 -- Q11: Calls per 1,000 enrollees (fair size comparison), top 10
@@ -156,7 +156,7 @@ FROM cc c
 JOIN enr e USING (state_code, report_month)
 WHERE c.call_volume IS NOT NULL
 GROUP BY c.state_code
-ORDER BY calls_per_1000_enrollee_months DESC
+ORDER BY calls_per_1000_enrollee_months DESC, state_code
 LIMIT 10;
 
 -- Q12: Biggest month-over-month swings in call volume (window function LAG)
@@ -176,7 +176,7 @@ SELECT
     ROUND(100.0 * (call_volume - prev_volume) / prev_volume, 0) AS pct_change
 FROM m
 WHERE prev_volume > 0 AND call_volume IS NOT NULL
-ORDER BY ABS((call_volume - prev_volume) / prev_volume) DESC
+ORDER BY ABS((call_volume - prev_volume) / prev_volume) DESC, state_code, report_month
 LIMIT 10;
 
 -- Q13: Region summary
@@ -203,7 +203,7 @@ GROUP BY state_code
 HAVING COUNT(*) FILTER (WHERE call_volume IS NULL) > 0
     OR COUNT(*) FILTER (WHERE avg_wait_min IS NULL) > 0
     OR COUNT(*) FILTER (WHERE avg_wait_min = 0) > 0
-ORDER BY months_missing_volume DESC, months_zero_wait DESC;
+ORDER BY months_missing_volume DESC, months_zero_wait DESC, state_code;
 
 -- Q15: Each state's single worst month (window function ROW_NUMBER), top 10
 WITH ranked AS (
@@ -220,5 +220,111 @@ SELECT state_code, report_month AS worst_month, avg_wait_min AS worst_wait_min,
        ROUND(100 * abandon_rate, 1) AS abandon_pct_that_month
 FROM ranked
 WHERE rn = 1
-ORDER BY worst_wait_min DESC
+ORDER BY worst_wait_min DESC, state_code
 LIMIT 10;
+
+-- =====================================================================
+-- CX & SLA COMPLIANCE MODULE (Q16-Q19)
+-- Table sla_config is created by python/run_sql.py from config/sla_config.json:
+--   wait_max (minutes), abandon_max (rate, 0.05 = 5%), streak_alert (months)
+-- A state-month is "evaluated" only when both wait and abandonment are reported.
+-- These are analyst-defined illustrative standards, not official CMS rules.
+-- =====================================================================
+
+-- Q16: SLA flags per state-month (feeds the Tableau dashboard)
+SELECT
+    c.state_code,
+    c.state_name,
+    s.region,
+    s.peer_group,
+    c.report_month,
+    c.call_volume,
+    c.avg_wait_min,
+    ROUND(100 * c.abandon_rate, 1)                                          AS abandon_pct,
+    (c.avg_wait_min IS NOT NULL AND c.abandon_rate IS NOT NULL)             AS sla_evaluated,
+    CASE WHEN c.avg_wait_min IS NULL THEN NULL
+         ELSE c.avg_wait_min <= k.wait_max END                              AS wait_sla_met,
+    CASE WHEN c.abandon_rate IS NULL THEN NULL
+         ELSE c.abandon_rate <= k.abandon_max END                           AS abandon_sla_met,
+    CASE WHEN c.avg_wait_min IS NULL OR c.abandon_rate IS NULL THEN NULL
+         ELSE c.avg_wait_min <= k.wait_max AND c.abandon_rate <= k.abandon_max END AS sla_met
+FROM cc c
+JOIN states s USING (state_code)
+CROSS JOIN sla_config k
+ORDER BY c.state_code, c.report_month;
+
+-- Q17: SLA compliance % by state (lowest compliance first)
+WITH f AS (
+    SELECT c.state_code, c.state_name, s.region, s.peer_group,
+           c.avg_wait_min <= k.wait_max      AS wait_ok,
+           c.abandon_rate <= k.abandon_max   AS abandon_ok
+    FROM cc c JOIN states s USING (state_code) CROSS JOIN sla_config k
+    WHERE c.avg_wait_min IS NOT NULL AND c.abandon_rate IS NOT NULL
+)
+SELECT
+    state_code, state_name, region, peer_group,
+    COUNT(*)                                                                AS months_evaluated,
+    COUNT(*) FILTER (WHERE wait_ok AND abandon_ok)                          AS months_sla_met,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE wait_ok) / COUNT(*), 1)            AS wait_sla_pct,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE abandon_ok) / COUNT(*), 1)         AS abandon_sla_pct,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE wait_ok AND abandon_ok) / COUNT(*), 1) AS overall_sla_pct
+FROM f
+GROUP BY state_code, state_name, region, peer_group
+ORDER BY overall_sla_pct, state_code;
+
+-- Q18: SLA compliance % by month (national trend)
+WITH f AS (
+    SELECT c.report_month,
+           c.avg_wait_min <= k.wait_max      AS wait_ok,
+           c.abandon_rate <= k.abandon_max   AS abandon_ok
+    FROM cc c CROSS JOIN sla_config k
+    WHERE c.avg_wait_min IS NOT NULL AND c.abandon_rate IS NOT NULL
+)
+SELECT
+    report_month,
+    COUNT(*)                                                                AS states_evaluated,
+    COUNT(*) FILTER (WHERE wait_ok AND abandon_ok)                          AS states_sla_met,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE wait_ok) / COUNT(*), 1)            AS wait_sla_pct,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE abandon_ok) / COUNT(*), 1)         AS abandon_sla_pct,
+    ROUND(100.0 * COUNT(*) FILTER (WHERE wait_ok AND abandon_ok) / COUNT(*), 1) AS overall_sla_pct
+FROM f
+GROUP BY report_month
+ORDER BY report_month;
+
+-- Q19: Watch list: consecutive months missing the SLA (gaps-and-islands with ROW_NUMBER)
+WITH f AS (
+    SELECT c.state_code, c.state_name, c.report_month,
+           (c.avg_wait_min IS NOT NULL AND c.abandon_rate IS NOT NULL
+            AND NOT (c.avg_wait_min <= k.wait_max AND c.abandon_rate <= k.abandon_max)) AS missed,
+           ROW_NUMBER() OVER (PARTITION BY c.state_code ORDER BY c.report_month)        AS rn
+    FROM cc c CROSS JOIN sla_config k
+),
+islands AS (
+    SELECT state_code, state_name, report_month,
+           rn - ROW_NUMBER() OVER (PARTITION BY state_code ORDER BY report_month) AS grp
+    FROM f
+    WHERE missed
+),
+streaks AS (
+    SELECT state_code, state_name, grp,
+           COUNT(*) AS streak_len, MIN(report_month) AS streak_start, MAX(report_month) AS streak_end
+    FROM islands
+    GROUP BY state_code, state_name, grp
+),
+ranked AS (
+    SELECT *, ROW_NUMBER() OVER (PARTITION BY state_code ORDER BY streak_len DESC, streak_end DESC) AS pick
+    FROM streaks
+)
+SELECT
+    r.state_code,
+    r.state_name,
+    r.streak_len                                                            AS longest_miss_streak,
+    r.streak_start,
+    r.streak_end,
+    COALESCE((SELECT s2.streak_len FROM streaks s2
+              WHERE s2.state_code = r.state_code
+                AND s2.streak_end = (SELECT MAX(report_month) FROM cc)), 0)  AS current_miss_streak,
+    r.streak_len >= k.streak_alert                                           AS on_watch_list
+FROM ranked r CROSS JOIN sla_config k
+WHERE r.pick = 1
+ORDER BY longest_miss_streak DESC, current_miss_streak DESC, state_code;

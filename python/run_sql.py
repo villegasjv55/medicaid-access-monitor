@@ -26,6 +26,14 @@ con.execute(f"CREATE VIEW cc AS SELECT * FROM read_csv_auto('{ROOT / 'data/clean
 con.execute(f"CREATE VIEW enr AS SELECT * FROM read_csv_auto('{ROOT / 'data/clean/enrollment_monthly.csv'}')")
 con.execute(f"CREATE VIEW states AS SELECT * FROM read_csv_auto('{ROOT / 'data/lookup/lookup_states.csv'}')")
 
+# SLA standards come from config/sla_config.json so they can be changed without editing SQL
+import json
+sla = json.loads((ROOT / "config" / "sla_config.json").read_text())
+con.execute(
+    "CREATE TABLE sla_config AS SELECT ? AS wait_max, ? AS abandon_max, ? AS streak_alert",
+    [float(sla["wait_sla_max_min"]), float(sla["abandon_sla_max_rate"]), int(sla["streak_alert_months"])],
+)
+
 text = (ROOT / "sql" / "queries.sql").read_text()
 # Split on the "-- Q##: title" header lines
 parts = re.split(r"^-- (Q\d{2}): (.*)$", text, flags=re.MULTILINE)

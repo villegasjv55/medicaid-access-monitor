@@ -1,0 +1,6 @@
+{
+  "_note": "Analyst-defined illustrative service standards, NOT official CMS rules. Change the numbers and re-run python/run_pipeline.py.",
+  "wait_sla_max_min": 10,
+  "abandon_sla_max_rate": 0.05,
+  "streak_alert_months": 3
+}

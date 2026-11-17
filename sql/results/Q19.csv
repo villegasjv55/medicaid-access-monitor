@@ -1,0 +1,49 @@
+state_code,state_name,longest_miss_streak,streak_start,streak_end,current_miss_streak,on_watch_list
+AK,Alaska,17,2023-03-01,2024-07-01,17,True
+AZ,Arizona,17,2023-03-01,2024-07-01,17,True
+DE,Delaware,17,2023-03-01,2024-07-01,17,True
+FL,Florida,17,2023-03-01,2024-07-01,17,True
+HI,Hawaii,17,2023-03-01,2024-07-01,17,True
+ID,Idaho,17,2023-03-01,2024-07-01,17,True
+IL,Illinois,17,2023-03-01,2024-07-01,17,True
+ME,Maine,17,2023-03-01,2024-07-01,17,True
+MO,Missouri,17,2023-03-01,2024-07-01,17,True
+MT,Montana,17,2023-03-01,2024-07-01,17,True
+NE,Nebraska,17,2023-03-01,2024-07-01,17,True
+OR,Oregon,17,2023-03-01,2024-07-01,17,True
+RI,Rhode Island,17,2023-03-01,2024-07-01,17,True
+UT,Utah,17,2023-03-01,2024-07-01,17,True
+WI,Wisconsin,17,2023-03-01,2024-07-01,17,True
+PA,Pennsylvania,16,2023-04-01,2024-07-01,16,True
+CO,Colorado,15,2023-05-01,2024-07-01,15,True
+MN,Minnesota,15,2023-05-01,2024-07-01,15,True
+NM,New Mexico,15,2023-03-01,2024-05-01,0,True
+WA,Washington,14,2023-06-01,2024-07-01,14,True
+WV,West Virginia,14,2023-03-01,2024-04-01,2,True
+OK,Oklahoma,12,2023-08-01,2024-07-01,12,True
+IN,Indiana,12,2023-04-01,2024-03-01,1,True
+NH,New Hampshire,11,2023-03-01,2024-01-01,1,True
+TX,Texas,11,2023-03-01,2024-01-01,1,True
+AR,Arkansas,11,2023-03-01,2024-01-01,0,True
+ND,North Dakota,10,2023-07-01,2024-04-01,0,True
+NJ,New Jersey,10,2023-06-01,2024-03-01,0,True
+AL,Alabama,9,2023-06-01,2024-02-01,1,True
+TN,Tennessee,9,2023-08-01,2024-04-01,0,True
+NV,Nevada,8,2023-12-01,2024-07-01,8,True
+VT,Vermont,8,2023-06-01,2024-01-01,0,True
+LA,Louisiana,7,2024-01-01,2024-07-01,7,True
+MD,Maryland,6,2023-05-01,2023-10-01,4,True
+GA,Georgia,6,2023-06-01,2023-11-01,0,True
+SC,South Carolina,5,2023-03-01,2023-07-01,4,True
+CT,Connecticut,5,2023-08-01,2023-12-01,1,True
+IA,Iowa,5,2023-07-01,2023-11-01,1,True
+DC,District of Columbia,5,2023-10-01,2024-02-01,0,True
+NY,New York,5,2024-01-01,2024-05-01,0,True
+KS,Kansas,4,2023-04-01,2023-07-01,0,True
+MS,Mississippi,3,2023-06-01,2023-08-01,0,True
+VA,Virginia,3,2023-07-01,2023-09-01,0,True
+MA,Massachusetts,2,2023-03-01,2023-04-01,0,False
+CA,California,1,2024-06-01,2024-06-01,0,False
+KY,Kentucky,1,2023-09-01,2023-09-01,0,False
+MI,Michigan,1,2023-11-01,2023-11-01,0,False
+NC,North Carolina,1,2024-01-01,2024-01-01,0,False

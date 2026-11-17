@@ -1,0 +1,51 @@
+state_code,state_name,region,peer_group,months_evaluated,months_sla_met,wait_sla_pct,abandon_sla_pct,overall_sla_pct
+AK,Alaska,West,Other,17,0,11.8,0.0,0.0
+AZ,Arizona,West,Other,17,0,58.8,0.0,0.0
+DE,Delaware,South,Other,17,0,100.0,0.0,0.0
+FL,Florida,South,Large,17,0,0.0,0.0,0.0
+HI,Hawaii,West,Other,17,0,23.5,0.0,0.0
+ID,Idaho,West,Other,17,0,0.0,0.0,0.0
+IL,Illinois,Midwest,Other,17,0,5.9,0.0,0.0
+ME,Maine,Northeast,Other,17,0,35.3,0.0,0.0
+MO,Missouri,Midwest,Other,17,0,0.0,0.0,0.0
+MT,Montana,West,Other,17,0,0.0,0.0,0.0
+NE,Nebraska,Midwest,Other,17,0,100.0,0.0,0.0
+NV,Nevada,West,Other,16,0,0.0,0.0,0.0
+OR,Oregon,West,Other,17,0,29.4,0.0,0.0
+RI,Rhode Island,Northeast,Other,17,0,5.9,0.0,0.0
+UT,Utah,West,Other,17,0,0.0,0.0,0.0
+WI,Wisconsin,Midwest,Other,17,0,70.6,0.0,0.0
+PA,Pennsylvania,Northeast,Large,17,1,47.1,5.9,5.9
+WV,West Virginia,South,Other,17,1,41.2,5.9,5.9
+CO,Colorado,West,Other,17,2,58.8,11.8,11.8
+MN,Minnesota,Midwest,Other,17,2,52.9,11.8,11.8
+NM,New Mexico,West,Other,17,2,11.8,11.8,11.8
+MD,Maryland,South,Other,17,3,94.1,17.6,17.6
+WA,Washington,West,Other,17,3,100.0,17.6,17.6
+IN,Indiana,Midwest,Other,17,4,70.6,23.5,23.5
+ND,North Dakota,Midwest,Other,17,4,94.1,23.5,23.5
+SC,South Carolina,South,Other,17,4,94.1,23.5,23.5
+AR,Arkansas,South,Other,17,5,94.1,29.4,29.4
+NH,New Hampshire,Northeast,Other,17,5,70.6,29.4,29.4
+OK,Oklahoma,South,Other,17,5,52.9,29.4,29.4
+TX,Texas,South,Large,17,5,64.7,29.4,29.4
+AL,Alabama,South,Other,17,6,100.0,35.3,35.3
+NJ,New Jersey,Northeast,Other,17,7,100.0,41.2,41.2
+GA,Georgia,South,Large,17,8,47.1,100.0,47.1
+TN,Tennessee,South,Other,17,8,58.8,47.1,47.1
+VT,Vermont,Northeast,Other,17,9,94.1,52.9,52.9
+CT,Connecticut,Northeast,Other,17,10,94.1,58.8,58.8
+LA,Louisiana,South,Other,17,10,100.0,58.8,58.8
+MS,Mississippi,South,Other,17,10,100.0,58.8,58.8
+IA,Iowa,Midwest,Other,17,11,88.2,64.7,64.7
+DC,District of Columbia,South,Other,17,12,100.0,70.6,70.6
+KS,Kansas,Midwest,Other,17,12,76.5,70.6,70.6
+NY,New York,Northeast,Large,17,12,100.0,70.6,70.6
+MA,Massachusetts,Northeast,Other,17,14,94.1,82.4,82.4
+VA,Virginia,South,Other,17,14,100.0,82.4,82.4
+CA,California,West,Large,17,15,100.0,88.2,88.2
+KY,Kentucky,South,Other,17,15,88.2,94.1,88.2
+MI,Michigan,Midwest,Other,17,16,100.0,94.1,94.1
+NC,North Carolina,South,Other,17,16,100.0,94.1,94.1
+OH,Ohio,Midwest,Other,17,17,100.0,100.0,100.0
+WY,Wyoming,West,Other,17,17,100.0,100.0,100.0
