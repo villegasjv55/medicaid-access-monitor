@@ -106,3 +106,29 @@ Written in my own words, at the end of each work session. "Why" matters more tha
 1. A window function calculates something across related rows without collapsing them into one row. In Q07 I used RANK() OVER (PARTITION BY month ORDER BY wait DESC) to get Florida's rank among all states in every month. In Q12 I used LAG() to compare each month with the month before.
 2. Two things can move together because of a third thing, or by coincidence. Calls and renewals rising together makes sense, but the data alone can't prove one caused the other. That's why I describe patterns and keep the claims honest.
 3. Staff to the renewal calendar (calls track renewals almost one-to-one), cut avoidable calls with self-service and automatic renewals, add callbacks so people stop hanging up, manage to weekly targets, and learn from states like Maine and Oklahoma that cut their waits fast.
+
+---
+
+## Day 5 – CX & SLA compliance module (date: November 17, 2026)
+
+**What I did**
+- Set service standards in a config file (wait ≤ 10 minutes, abandonment ≤ 5%) and wrote 4 new SQL queries: SLA flags per state-month (Q16), compliance by state (Q17), compliance by month (Q18) and miss streaks (Q19).
+- Built `python/run_pipeline.py`, one command that cleans the data, runs all 19 queries, applies the standards, writes a dated KPI report and a summary, runs 10 PASS/FAIL checks and logs every run.
+- Added an `SLA_Compliance` tab in Excel and 3 new rows on the Reconciliation tab (10 of 10 PASS).
+- Built and published a Tableau Public dashboard: KPI strip, map, monthly trend, watch list, region and peer-group filters.
+
+**Decisions I made and why**
+- Put the standards in a config file instead of hard-coding them, so a manager can change a target and re-run without touching code.
+- Only scored months where both wait and abandonment were reported, so missing data doesn't count as a pass or a miss.
+- Added tie-breakers (`ORDER BY ..., state_code`) to the SQL so every run produces identical files. Before that, tied states could swap places between runs.
+- Labeled the standards as analyst-defined, not official CMS rules.
+
+**Questions I must be able to answer**
+1. What is an SLA, and why did I choose 10 minutes and 5%?
+2. How does the miss-streak query work?
+3. What does "automated" mean in this project?
+
+**My answers**
+1. An SLA is a service standard a team promises to meet. 10 minutes sits between the large-state peer average (6.3) and the national average (14.4). 5% is a common call-center abandonment target. Both are in a config file, so they're easy to change.
+2. It numbers each state's months in order, then numbers only the missed months. Subtracting the two gives the same value for months that are back to back (the "gaps and islands" method), so I can count each streak's length.
+3. One command rebuilds everything from the raw files: cleaning, SQL, SLA report and checks. It stops with FAIL if something doesn't match, and it keeps a log, so the report could run every morning without anyone redoing the work by hand.
